@@ -160,6 +160,7 @@ btnRoll.addEventListener('click', function () {
 
 btnHold.addEventListener('click', function () {
   if (playing) {
+    alert('New window');
     // 1. Add current score to active player's score
     scores[activePlayer] += currentScore;
     // scores[1] = scores[1] + currentScore
