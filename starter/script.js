@@ -184,3 +184,5 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
+alert('New window');
+prompt;
