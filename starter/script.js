@@ -129,6 +129,10 @@ const init = function () {
 };
 init();
 
+const newFeature = () => console.log('Welcome to the application');
+
+newFeature();
+
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   activePlayer = activePlayer === 0 ? 1 : 0;
